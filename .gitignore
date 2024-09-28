@@ -1668,3 +1668,4 @@ flask/.venv/lib/python3.10/site-packages/werkzeug-3.0.4.dist-info/LICENSE.txt
 flask/.venv/lib/python3.10/site-packages/werkzeug-3.0.4.dist-info/METADATA
 flask/.venv/lib/python3.10/site-packages/werkzeug-3.0.4.dist-info/RECORD
 flask/.venv/lib/python3.10/site-packages/werkzeug-3.0.4.dist-info/WHEEL
+flask/__pycache__/app.cpython-310.pyc

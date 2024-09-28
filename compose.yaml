@@ -1,0 +1,20 @@
+---
+services:
+  flask:
+    #image: marceltoma/flask:latest
+    build:
+      context: flask
+      dockerfile: Dockerfile
+    ports:
+      - 7070:8080
+    env_file:
+      - ./flask/dev.env
+    secrets:
+      - api_key
+    environment:
+      - APP_VERSION=0.1.0
+    #  - DB_PASSWORD
+
+secrets:
+  api_key:
+    file: ./flask/api_key.txt
